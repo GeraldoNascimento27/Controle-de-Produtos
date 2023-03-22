@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    padding: 5px;
+    background-color: #303030;
+    color: aliceblue;
+
+    display: grid;
+    text-align: center;
+}
+
+main {
+    padding: 60px;
+}
+
+section {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    border: 1px solid;
+    border-color: #ccc;
+    border-radius: 10px;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+}
+
+#preco {
+    margin-top: 15px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 10px;
+    background-color: rgb(39,39,39);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #303030;
+    color: aliceblue;
+}
+
+td {
+    padding: 1px;
+    padding-left: 5px;
+}
