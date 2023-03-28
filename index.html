@@ -22,16 +22,16 @@
         <section>
             <div id="produto" class="dados">
                 <label for="produto">Produto</label>
-                <input type="text" placeholder="Nome do Produto..."> 
+                <input id="pdnome" type="text" placeholder="Nome do Produto..."> 
             </div>
             <div id="preco" class="dados">
                 <label for="preco">Preço</label>
-                <input type="number" placeholder="R$ 00,00">
+                <input id="pdpreco" type="number" placeholder="R$ 00,00">
             </div>
 
             <div id="botoes">
-                <button>Adicionar</button>
-                <button>Cancelar</button>
+                <button onclick="produto.Adicionar()">Adicionar</button>
+                <button onclick="produto.Cancelar()">Cancelar</button>
             </div>
 
         </section>
@@ -42,13 +42,11 @@
             <th>Valor</th>
             <th>Remover</th>
 
-            <tbody>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
+            <tbody id="tbody">
+            
             </tbody>
         </table>
     </main>
 </body>
+<script src="script.js"></script>
 </html>
